@@ -1,0 +1,79 @@
+/* body{
+    height: 100%;
+} */
+.header{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(151, 199, 241);
+}
+#container{
+    display: flex;
+}
+h2{
+    text-align: center;
+}
+.box{
+    height:660px;
+    width: 50%;
+}
+.box1{
+    background-color:antiquewhite;
+}
+.box2{
+    background-color:aquamarine;
+}
+form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-top: 30px;
+    margin: auto;
+}
+label {
+    font-weight: bold;
+}
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #7c84dd;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3d4be6;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #3d4be6;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.actions button {
+    margin: 0 5px;
+}
+#students-list {
+    margin-top: 20px;
+}
